@@ -1,0 +1,38 @@
+/* Для больших сайтов делаем сss файлы для каждого меню, например: хедер, меню, сайтбар и т.п. */﻿
+body{
+background-color: #ff6560;
+font-family: arial sans-serif;
+}
+.wraper{
+  width: 500px;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+div, header{
+  text-align: center;
+  border-bottom: 1px solid black; /*добавили серую горизонт.линию под дивами-блоками*/
+  padding-bottom: 10px; /*что бы текст не прилипал к низу ДИВОВ*/
+}
+img{
+  /*display: block;сначала делаем картинку блочным элементом, а потом ее центрируем*/
+  /*margin: 0 auto;*/
+  width: 300px;/*что б картинка не выходила за пределы 300 пикс, если картинка большая*/
+  border: 5px solid #6b6c6a;
+}
+.intro{
+  color: black;
+  font-size: 16px;
+  margin-left: 0;
+}
+li{
+  text-align: left;
+}
+p, a{
+  margin-left: 30px;
+}
+.fitbeak, .wraper{
+  border-bottom: none;
+}
